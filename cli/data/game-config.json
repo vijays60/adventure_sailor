@@ -1,0 +1,105 @@
+{
+    "names": [
+        "The Barbarossa Brothers",
+        "Sir Francis Drake",
+        "L’Olonnais",
+        "Henry Morgan",
+        "Captain Kidd",
+        "Blackbeard",
+        "Calico Jack",
+        "Madame Cheng"
+    ],
+    "products": [
+        {
+            "id": 1, "name": "Tuna", "income": 1, "own": 1, 
+            "waitTime": 4, "buyin": 5, "manager": null, "locked": false
+        },
+        {
+            "id": 2, "name": "Prawn", "income": 2, "own": 0, 
+            "waitTime": 5, "buyin": 10, "manager": null, "locked": true
+        },
+        {
+            "id": 3, "name": "Oysters", "income": 3, "own": 0, 
+            "waitTime": 4, "buyin": 15, "manager": null, "locked": true
+        },
+        {
+            "id": 4, "name": "Crab", "income": 4, "own": 0, 
+            "waitTime": 4, "buyin": 20, "manager": null, "locked": true
+        },
+        {
+            "id": 5, "name": "Sardine", "income": 5, "own": 0, 
+            "waitTime": 4, "buyin": 25, "manager": null, "locked": true
+        },
+        {
+            "id": 6, "name": "Salmon", "income": 6, "own": 0, 
+            "waitTime": 4, "buyin": 30, "manager": null, "locked": true
+        },
+        {
+            "id": 7, "name": "Lobster", "income": 7, "own": 0, 
+            "waitTime": 4, "buyin": 40, "manager": null, "locked": true
+        },
+        {
+            "id": 8, "name": "Herring", "income": 8, "own": 0, 
+            "waitTime": 4, "buyin": 50, "manager": null, "locked": true
+        },
+        {
+            "id": 9, "name": "Eels", "income": 9, "own": 0, 
+            "waitTime": 4, "buyin": 60, "manager": null, "locked": true
+        },
+        {
+            "id": 10, "name": "Shark", "income": 10, "own": 0, 
+            "waitTime": 4, "buyin": 70, "manager": null, "locked": true
+        }
+        
+    ],
+    "levels": {
+        "1" :{
+            "levelNo": 1,
+            "crewcount" : 10,
+            "incomerate": 1.1,
+            "buyinRate": 1.1
+        },
+        "2" :{
+            "levelNo": 2,
+            "crewcount" : 25,
+            "incomerate": 1.15,
+            "buyinRate": 1.2
+        },
+        "3" :{
+            "levelNo": 3,
+            "crewcount" : 50,
+            "incomerate": 1.15,
+            "buyinRate": 1.4
+        },
+        "4" :{
+            "levelNo": 4,
+            "crewcount" : 100,
+            "incomerate": 1.2,
+            "buyinRate": 1.6
+        },
+        "5" :{
+            "levelNo": 5,
+            "crewcount" : 150,
+            "incomerate": 1.6,
+            "buyinRate": 2
+        },
+        "6" :{
+            "levelNo": 6,
+            "crewcount" : 150,
+            "incomerate": 1.8,
+            "buyinRate": 2.5
+        },
+        "7" :{
+            "levelNo": 7,
+            "crewcount" : 200,
+            "incomerate": 2,
+            "buyinRate": 3
+        },
+        "8" :{
+            "levelNo": 8,
+            "crewcount" : 300,
+            "incomerate": 2.5,
+            "buyinRate": 5
+        } 
+    }
+}
